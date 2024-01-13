@@ -10,6 +10,7 @@ pipeline {
         stage("init") {
             steps {
                 script {
+// This is a test comment
                     gv = load "script.groovy"
                 }
             }
